@@ -9,11 +9,9 @@ body {
 
 .chocolate-box {
   position: relative;
-  height: 40vw; 
-  width: 40vw; 
+  height: 300px;
+  width: 300px;
   cursor: pointer;
-  max-height: 300px; 
-  max-width: 300px; 
 }
 .chocolate-box:before,
 .chocolate-box:after {
@@ -323,10 +321,3 @@ body {
   left: -300px;
 }
 
-@media screen and (max-width: 600px) {
-  /* Estilos específicos para pantallas de hasta 600px de ancho */
-  .chocolate-box {
-    height: 70vw;
-    width: 70vw;
-  }
-}
